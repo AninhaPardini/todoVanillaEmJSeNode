@@ -16,6 +16,6 @@ export default class DB {
   }
 
   save(data) {
-    fs.writeFileSync(this.dbPath, JSON.stringfy(data, null, 2));
+    fs.writeFileSync(this.dbPath, JSON.stringify(data, null, 2));
   }
 }
