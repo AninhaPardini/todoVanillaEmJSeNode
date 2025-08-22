@@ -7,6 +7,7 @@ Ideal para aprender a organizar um projeto em camadas (**Controller → Service 
 
 ## 📂 Estrutura do Projeto
 
+```
 src/
 ├── controllers/ # Controladores (lógica de entrada/saída HTTP)
 │ └── todoController.js
@@ -21,6 +22,7 @@ src/
 │ └── db.js
 ├── server.js # Servidor HTTP (usando módulo http)
 └── index.js # Ponto de entrada da aplicação
+```
 
 ## 🚀 Como rodar
 
