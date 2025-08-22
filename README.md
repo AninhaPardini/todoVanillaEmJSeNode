@@ -54,8 +54,8 @@ src/
 ### Criar um TODO
 
 ```bash
-  curl -X POST http://localhost:3000/todos \
-  -H "Content-Type: application/json" \
+  curl -X POST http://localhost:3000/todos
+  -H "Content-Type: application/json"
   -d '{"title": "Estudar Node.js"}'
 ```
 
@@ -68,8 +68,8 @@ src/
 ### Atualizar um TODO
 
 ```bash
-  curl -X PUT http://localhost:3000/todos/1 \
-  -H "Content-Type: application/json" \
+  curl -X PUT http://localhost:3000/todos/1
+  -H "Content-Type: application/json"
   -d '{"title": "Estudar Node.js avançado", "done": true}'
 
 ```
